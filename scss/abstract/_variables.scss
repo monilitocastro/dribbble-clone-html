@@ -1,10 +1,15 @@
-$light-green: rgba(126, 213, 111, 0.804);
-$dark-green: rgba(40, 180, 133, 0.804);
+$light-green-transparent: rgba(126, 213, 111, 0.804);
+$light-green: rgb(126, 213, 111);
+$middle-green: #55c57a;
+$dark-green: rgb(40, 180, 133);
+$dark-green-transparent: rgba(40, 180, 133, 0.804);
 $gray: #777;
 $white: #fff;
+$white-transparent: rgba(255, 255, 255, 0.8);
 $off-white: #f8f8f8;
 $light-gray-1: #f7f7f7;
 $black: rgba(0, 0, 0, 1);
+$shadow-transparent: rgba(0, 0, 0, 0.2);
 $middle-gray: #555;
 
 // GRID
@@ -14,3 +19,6 @@ $gutter-horizontal: 6rem;
 
 // Sections
 $section-height: 75rem;
+
+// FONT
+$default-font-size: 1.6rem;

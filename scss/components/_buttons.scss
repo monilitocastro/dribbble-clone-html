@@ -4,7 +4,7 @@
   color: $black;
   padding: 1rem 1rem;
   text-transform: uppercase;
-  font-size: 1.6rem;
+  font-size: $default-font-size;
   border-radius: 10rem;
   margin-top: 2.5rem;
   letter-spacing: 0.5rem;
@@ -21,5 +21,30 @@
   &:active {
     transform: translate(0px, 0.5rem);
     box-shadow: 0 0.5rem 0.5rem $middle-gray;
+  }
+}
+
+.btn-text {
+  &:link,
+  &:visited {
+    font-size: $default-font-size;
+    text-decoration: none;
+    color: $middle-green;
+    padding: 3px;
+    border-bottom: 1px solid $middle-green;
+    display: inline-block;
+    transition: all 0.2s;
+  }
+
+  &:hover {
+    background-color: $middle-green;
+    color: $white;
+    transform: translateY(-2px);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+  }
+
+  &:active {
+    transform: translateY(0px);
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
   }
 }

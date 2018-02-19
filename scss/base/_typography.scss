@@ -2,7 +2,11 @@
   font-size: 3.5rem;
   font-weight: 700;
   text-transform: uppercase;
-  background-image: linear-gradient(to right, $light-green, $dark-green);
+  background-image: linear-gradient(
+    to right,
+    $light-green-transparent,
+    $dark-green-transparent
+  );
   margin: 0 auto;
   background-clip: text;
   -webkit-background-clip: text;
@@ -10,20 +14,17 @@
   letter-spacing: 4px;
   transition: transform 0.2s;
   &:hover {
-    transform: skewX(30deg) skewy(-10deg) scale(1.1) translateY(-5px);
-    text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+    transform: skewX(10deg) skewy(-5deg) scale(1.03) translateY(-5px);
+    text-shadow: 10px 10px 10px $shadow-transparent;
   }
 }
-
 .heading-tertiary {
-  font-size: 1.6rem;
+  font-size: $default-font-size;
   font-weight: 700;
   text-transform: uppercase;
 }
-
 .paragraph {
-  font-size: 1.6rem;
-
+  font-size: $default-font-size;
   &:not(:last-child) {
     margin-bottom: 3rem;
   }

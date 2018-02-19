@@ -1,7 +1,13 @@
 .header {
   height: 95vh;
-  background-image: linear-gradient(to bottom right, $light-green, $dark-green),
+  background-image: linear-gradient(
+      to bottom right,
+      $light-green-transparent,
+      $dark-green-transparent
+    ),
     url("../img/hero.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
   clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
   &__logo-box {
     position: absolute;
@@ -13,7 +19,6 @@
     width: 8rem;
   }
 }
-
 .heading {
   // nonlocal use
   &-primary {
