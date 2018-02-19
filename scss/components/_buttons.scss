@@ -1,0 +1,25 @@
+.btn {
+  display: inline-block;
+  background-color: $off-white;
+  color: $black;
+  padding: 1rem 1rem;
+  text-transform: uppercase;
+  font-size: 1.6rem;
+  border-radius: 10rem;
+  margin-top: 2.5rem;
+  letter-spacing: 0.5rem;
+  transition: all 0.2s;
+  animation: ease-from-bottom 1s ease-out;
+  &:hover {
+    box-shadow: 0 1rem 1rem $middle-gray;
+    background-color: $white;
+  }
+  &:link,
+  &:visited {
+    text-decoration: none;
+  }
+  &:active {
+    transform: translate(0px, 0.5rem);
+    box-shadow: 0 0.5rem 0.5rem $middle-gray;
+  }
+}
