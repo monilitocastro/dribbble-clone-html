@@ -12,6 +12,57 @@
   margin-bottom: 8rem;
 }
 
+.u-margin-top-small {
+  margin-top: 1rem;
+}
+.u-margin-top-medium {
+  margin-top: 2rem;
+}
 .u-margin-top-large {
-  margin-top: 8rem;
+  margin-top: 3rem;
+}
+
+.u-padding-top-bottom-small {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.u-padding-top-bottom-medium {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.u-padding-top-bottom-medium {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+// color
+.u-medium-gray-bgcolor {
+  background-color: $middle-gray;
+}
+.u-dark-gray-bgcolor {
+  background-color: $dark-gray;
+}
+.u-light-gray-text {
+  color: $light-gray-4;
+}
+.u-white-text {
+  color: #fff;
+}
+
+// typography
+.u-font-weight-300 {
+  font-weight: 300;
+}
+.u-font-weight-500 {
+  font-weight: 500;
+}
+
+// orientation
+.u-display-inline {
+  display: inline;
+}
+.u-padding-right-left-small {
+  padding: 0rem 1rem;
 }

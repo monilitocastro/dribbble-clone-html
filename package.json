@@ -5,14 +5,15 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "concurrently \"npm run compile:sass\" \"node index\"",
+    "dev": "concurrently \"npm run compile:sass --watch\" \"nodemon index\"",
     "compile:sass": "node-sass scss/main.scss css/style.css -w"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "concurrently": "^3.5.1",
-    "node-sass": "^4.7.2"
+    "node-sass": "^4.7.2",
+    "nodemon": "^1.17.3"
   },
   "dependencies": {
     "express": "^4.16.3"

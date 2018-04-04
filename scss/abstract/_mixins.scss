@@ -5,3 +5,14 @@
     clear: both;
   }
 }
+
+@mixin borderRadiusSmall {
+  border-radius: 3px;
+}
+@mixin borderRadiusMedium {
+  border-radius: 5px;
+}
+
+@mixin borderRadiusLarge {
+  border-radius: 10px;
+}

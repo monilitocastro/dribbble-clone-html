@@ -1,0 +1,12 @@
+.logo {
+  font-size: 4rem;
+  color: $light-gray-1;
+  min-width: 4rem;
+  min-height: 6rem;
+  padding: 1rem 1rem;
+  &__text {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+  }
+}

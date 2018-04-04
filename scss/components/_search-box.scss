@@ -1,0 +1,14 @@
+.search-box {
+  font-size: 2rem;
+  height: 3rem;
+  padding-left: 3rem;
+  @include borderRadiusMedium;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  outline: none;
+  border: none;
+  background-image: url("https://www.w3schools.com/css/searchicon.png");
+  background-repeat: no-repeat;
+  background-position-x: 4px;
+  background-position-y: 4px;
+}
